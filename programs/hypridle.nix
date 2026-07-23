@@ -15,7 +15,7 @@ in
                 {
                     on-resume = "${screenOn}";
                     on-timeout = "${screenOff}";
-                    timeout = 60;
+                    timeout = 300;
                 }
                 {
                     on-timeout = "systemctl suspend";
