@@ -40,7 +40,14 @@
         firefox.enable = true; # TODO: manage dotfiles
         hyprshot.enable = true;
         mpv.enable = true;
-        gh.enable = true;
+        gh = {
+            enable = true;
+            settings.git_protocol = "https";
+            gitCredentialHelper = {
+                enable = true;
+                hosts = [ "github.com" ];
+            };
+        };
     };
 
     services = {
