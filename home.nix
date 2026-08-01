@@ -86,8 +86,14 @@
     EDITOR = "nvim";
   };
 
-  services.home-manager.autoExpire = {
-    enable = true;
-    store.cleanup = true;
+  services.home-manager = {
+    autoExpire = {
+      enable = true;
+      store.cleanup = true;
+    };
+    autoUpgrade = {
+      enable = true;
+      frequency = "weekly";
+    };
   };
 }
