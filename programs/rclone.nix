@@ -2,10 +2,13 @@
 {
     programs.rclone = {
         enable = true;
-        remotes.googledrive.mounts."/" = {
-            enable = true;
-            autoMount = true;
-            mountPoint = "/home/ves/gdrive/";
+        remotes."googledrive" = {
+            config = {};
+            mounts."/" = {
+                enable = true;
+                autoMount = true;
+                mountPoint = "/home/ves/gdrive/";
+            };
         };
     };
 }
