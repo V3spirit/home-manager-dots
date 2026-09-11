@@ -9,6 +9,7 @@
         ./neovim.nix
         ./obs.nix
         ./music.nix
+        ./rclone.nix
         ./starship.nix
         ./quickshell.nix
         ./gamemode.nix
