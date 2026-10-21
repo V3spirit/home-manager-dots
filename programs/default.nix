@@ -12,6 +12,7 @@
         ./rclone.nix
         ./starship.nix
         ./quickshell.nix
+        ./tmux.nix
         ./gamemode.nix
         ./games
     ];
