@@ -9,6 +9,7 @@
         ./neovim.nix
         ./obs.nix
         ./music.nix
+        ./ranger.nix
         ./rclone.nix
         ./starship.nix
         ./quickshell.nix
