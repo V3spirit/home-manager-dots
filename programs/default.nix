@@ -20,6 +20,7 @@
     home.packages = with pkgs; [
 
         duf
+        libreoffice
         nvtopPackages.nvidia
         wootility
     ];
