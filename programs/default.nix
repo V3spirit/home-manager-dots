@@ -23,6 +23,7 @@
         libreoffice
         nvtopPackages.nvidia
         wootility
+        wlsunset
     ];
 
     programs = {
@@ -56,7 +57,6 @@
 
     services = {
         hyprpolkitagent.enable = true;
-        hyprlauncher.enable = true;
-        hyprsunset.enable = true;
+        hyprlauncher.enable = true; #TODO: switch to wofi
     };
 }
