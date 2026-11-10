@@ -6,6 +6,7 @@
     ./fonts.nix
     ./programs
     ./pipewire.nix
+    ./hyprland.nix
   ];
 
   nixpkgs.config = {
@@ -97,3 +98,4 @@
     };
   };
 }
+
