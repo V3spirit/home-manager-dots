@@ -43,7 +43,10 @@
         ripgrep.enable = true;
         vesktop.enable = true; # TODO: manage dotfiles
         firefox.enable = true; # TODO: manage dotfiles
-        hyprshot.enable = true;
+        hyprshot = {
+            enable = true;
+            saveLocation = "$HOME/Pictures/hyprshot";
+        };
         mpv.enable = true;
         gh = {
             enable = true;
