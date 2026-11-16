@@ -14,7 +14,7 @@
         ./starship.nix
         ./quickshell.nix
         ./tmux.nix
-        ./wofi.nix
+        ./wofi
         ./gamemode.nix
         ./games
     ];
