@@ -14,6 +14,7 @@
         ./starship.nix
         ./quickshell.nix
         ./tmux.nix
+        ./wofi.nix
         ./gamemode.nix
         ./games
     ];
@@ -60,6 +61,5 @@
 
     services = {
         hyprpolkitagent.enable = true;
-        hyprlauncher.enable = true; #TODO: switch to wofi
     };
 }
