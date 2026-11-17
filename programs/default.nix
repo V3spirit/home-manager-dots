@@ -62,4 +62,9 @@
     services = {
         hyprpolkitagent.enable = true;
     };
+
+    xdg.terminal-exec = {
+        enable = true;
+        settings = { default = [ "kitty.desktop" ]; };
+    };
 }
