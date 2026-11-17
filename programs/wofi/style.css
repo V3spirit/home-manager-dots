@@ -44,12 +44,14 @@
 @define-color	surface1-rgb  rgb(69, 71, 90);
 @define-color	surface0  #313244;
 @define-color	surface0-rgb  rgb(49, 50, 68);
-@define-color	base  #1e1e2e;
+@define-color	base  rgba(0.7, 0.7, 0.7, 0.8);
 @define-color	base-rgb  rgb(30, 30, 46);
 @define-color	mantle  #181825;
 @define-color	mantle-rgb  rgb(24, 24, 37);
 @define-color	crust  #11111b;
 @define-color	crust-rgb  rgb(17, 17, 27);
+
+@define-color   inner-base  rgba(0, 0, 0, 0);
 
 * {
   font-family: 'CaskaydiaCove Nerd Font', monospace;
@@ -70,7 +72,7 @@ window {
   margin: 5px;
   padding: 10px;
   border: none;
-  background-color: @base;
+  background-color: @inner-base;
 }
 
 /* Outer Box */
@@ -78,7 +80,7 @@ window {
   margin: 5px;
   padding: 10px;
   border: none;
-  background-color: @base;
+  background-color: @inner-base;
 }
 
 /* Scroll */
@@ -86,7 +88,7 @@ window {
   margin: 0px;
   padding: 10px;
   border: none;
-  background-color: @base;
+  background-color: @inner-base;
 }
 
 /* Input */
@@ -96,7 +98,7 @@ window {
   border: none;
   border-radius: 0.1em;
   color: @text;
-  background-color: @base;
+  background-color: @inner-base;
 }
 
 #input image {
@@ -116,7 +118,7 @@ window {
 }
 
 #entry {
-  background-color: @base;
+  background-color: @inner-base;
 }
 
 #entry arrow {
